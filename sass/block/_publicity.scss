@@ -1,0 +1,78 @@
+.publicity{
+    background: $bg-dark;
+    height: 1129px;
+    &__buttons{
+        height: 65px;
+        display: flex;
+        gap: 16px;
+        .btn{
+            background:#69686843;
+            font-size: 24px;
+            color: $bg-light;
+            border: none;
+            transition: .25s;
+            &:hover{
+                background: $bg-sy;
+                color: $bg-dark;
+                cursor: pointer;
+            }
+            &__icon{
+                margin-left: 374px;
+                cursor: pointer;
+            }
+        }
+    }
+    .card__wrapper{
+        margin-top: 64px;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        .card{
+            height:490px;
+            background: $bg-py;
+            transition: .25s;
+            &:hover{
+                transform: scaleX(1.1);
+            }
+            &__desc{
+                width: 165px;
+                margin-left: 20px;
+                margin-top:15px;
+                h2{
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 40.08px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: $bg-light;
+                }
+                p{
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 42.1px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: $bg-gold;
+                    
+                }
+            }
+            &__desc--{
+                display: flex;
+                gap:15px;
+                margin-top: 8px;
+            }
+            &__bottom{
+                display: flex;
+                gap: 20px;
+                margin-top: 46px;
+                margin-left: 24px;
+                h3{
+                    margin-top: 10px;
+                    color: $bg-light;
+                    font-size: 18px;
+                    font-weight:100;
+                }
+            }
+        }
+    }
+}

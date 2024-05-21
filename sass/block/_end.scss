@@ -1,0 +1,54 @@
+.end{
+    background: $bg-dark;
+    height: 1386px;
+    padding-top: 60px;
+    
+    &__title{
+        width: 800px;
+        margin-left: 150px;
+        padding-left: 100px;
+        h2{
+            font-size: 48px;
+            color: $bg-light;
+        }
+    }
+    &__input{
+        display: flex;
+        gap: 16px;
+       input{
+            width: 460px;
+            height: 65px;
+            background: transparent;
+            font-size: 24px;
+            padding-left: 20px;
+            border: 1px solid $bg-gold;
+        }
+        button{
+            width: 156px;
+            height: 65px;
+            background: $bg-gold;
+            font-size: 24px;
+            color: $bg-light;
+            border: none;
+            transition: .24s;
+            &:hover{
+                color: $bg-dark;
+                background: $bg-py;
+            }
+        } 
+        
+    }
+    &__img{
+        width: 960px;
+        margin-left: 80px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 10;
+    }
+    &__line{
+        background: $bg-sy;
+        height: 300px;
+        position: relative;
+        top:550px;
+    }
+}

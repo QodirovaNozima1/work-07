@@ -1,0 +1,74 @@
+.footer{
+    height: 382px;
+    background: $bg-py;
+    position: relative;
+    top:500px;
+    z-index: 11;
+    &__wrapper{
+        display: flex;
+        gap: 200px;
+        height: 260px;
+        padding-top: 93px;
+    }
+    &__logo{
+       width: 200px;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       p{
+        color: $bg-light;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        &:hover{
+            color:#a9a3a3;
+            cursor: pointer;
+        }
+        }
+    }
+    &__collection{
+        display: flex;
+        flex-direction: row;
+        gap: 105px;
+        ul{
+            height: 189px;
+            &:hover{
+                color:#a9a3a3;
+                cursor: pointer;
+            }
+        }
+        h2{
+            color: $bg-light;
+            font-size: 28px;
+            font-weight:400;
+            line-height: 28.8px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            &:hover{
+                color:#a9a3a3;
+                cursor: pointer;
+            }
+        }
+        
+    }
+    &__item{
+        color: #e0dbdb;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        &:hover{
+            color: #a9a3a3;
+            cursor: pointer;
+        }
+    }
+    &__icon{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        margin-top: 14px;
+    }
+}

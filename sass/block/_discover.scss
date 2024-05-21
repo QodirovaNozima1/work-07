@@ -1,0 +1,35 @@
+.discover{
+    background:$bg-dark;
+    padding-top: 150px;
+    &__title{
+        color: $bg-light;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 57.6px;
+        text-align: left;
+        
+    }
+    &__wrapper{
+        height: 495px;
+        display: flex;
+        .text__{
+            padding-top: 32px;
+            font-size: 36px;
+            width: 50%;
+            height: 232px;
+            font-weight: 200;
+            line-height: 50.4px;
+            text-align: left;
+            
+        }
+        .text--{
+            padding-top: 32px;
+            width: 50%;
+            font-size: 32px;
+            font-weight:200;
+            line-height: 44.8px;
+            text-align: left;
+            
+        }
+    }
+}
